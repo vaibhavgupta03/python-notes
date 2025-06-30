@@ -20,7 +20,7 @@ When naming variables, you should follow these rules:
 ### Example:
 ```python
 user_name = "Vaibhav"  # Valid variable name
-user1 = "Gupta"  # Valid variable name
+user1 = "Vaibhav"  # Valid variable name
 1st_user = "Vaibhav"  # Invalid variable name (cannot start with a number)
 ```
 
