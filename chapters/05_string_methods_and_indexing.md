@@ -11,8 +11,8 @@ The `lower()` method converts all characters in a string to lowercase.
 
 **Example:**
 ```python
-text = "Hello World"
-print(text.lower())  # Output: hello world
+name = "Vaibhav Gupta"
+print(name.lower())  # Output: vaibhav gupta
 ```
 
 ### 2. `upper()`
@@ -20,35 +20,33 @@ The `upper()` method converts all characters in a string to uppercase.
 
 **Example:**
 ```python
-text = "Hello World"
-print(text.upper())  # Output: HELLO WORLD
+name = "Vaibhav Gupta"
+print(name.upper())  # Output: VAIBHAV GUPTA
 ```
 
 ### 3. `title()`
 The `title()` method converts the first character of each word to uppercase.
-
 **Example:**
 ```python
-text = "hello world"
-print(text.title())  # Output: Hello World
+name = "Vaibhav Gupta"
+print(name.title())  # Output: Vaibhav Gupta
 ```
 
 ### 4. `strip()`
 The `strip()` method removes any leading and trailing whitespace from a string.
-
-**Example:**
 ```python
-text = "   Hello World   "
-print(text.strip())  # Output: Hello World
+name = "   Vaibhav Gupta   "
+print(name.strip())  # Output: Vaibhav Gupta
+
 ```
 
 ### 5. `replace()`
 The `replace()` method replaces a specified substring with another substring.
-
 **Example:**
 ```python
-text = "Hello World"
-print(text.replace("World", "Python"))  # Output: Hello Python
+name = "Vaibhav Gupta"
+print(name.replace("Vaibhav", "Priyanshu"))  # Output: Priyanshu Gupta
+
 ```
 
 ### 6. `find()`
@@ -56,9 +54,9 @@ The `find()` method returns the lowest index of the substring if found in the st
 
 **Example:**
 ```python
-text = "Hello World"
-print(text.find("World"))  # Output: 6
-print(text.find("Python"))  # Output: -1
+name = "Vaibhav Gupta"
+print(name.find("Gupta"))  # Output: 8
+print(name.find("Python"))  # Output: -1
 ```
 
 ### 7. `count()`
@@ -66,8 +64,9 @@ The `count()` method returns the number of occurrences of a substring in the str
 
 **Example:**
 ```python
-text = "Hello World"
-print(text.count("o"))  # Output: 2
+name = "Vaibhav Gupta"
+print(name.count("a"))  # Output: 3
+
 ```
 
 ## String Indexing
@@ -76,10 +75,10 @@ Indexing is used to access individual characters in a string. In Python, string 
 ### Accessing Characters
 **Example:**
 ```python
-text = "Hello"
-print(text[0])  # Output: H
-print(text[1])  # Output: e
-print(text[-1])  # Output: o (last character)
+name = "Vaibhav"
+print(name[0])  # Output: V
+print(name[1])  # Output: a
+print(name[-1])  # Output: v (last character)
 ```
 
 ### Slicing Strings
@@ -87,11 +86,11 @@ You can slice strings to obtain a substring by specifying a start and end index.
 
 **Example:**
 ```python
-text = "Hello World"
-print(text[0:5])  # Output: Hello
-print(text[6:])   # Output: World
-print(text[:5])   # Output: Hello
-print(text[-5:])  # Output: World
+name = "Vaibhav Gupta"
+print(name[0:5])  # Output: Vaibh
+print(name[6:])   # Output: av Gupta
+print(name[:5])   # Output: Vaibh
+print(name[-5:])  # Output: Gupta
 ```
 
 ### Step in Slicing
@@ -99,9 +98,9 @@ You can also specify a step in slicing to skip characters.
 
 **Example:**
 ```python
-text = "Hello World"
-print(text[::2])  # Output: Hlo ol
-print(text[::-1]) # Output: dlroW olleH (reversed string)
+name = "Vaibhav Gupta"
+print(name[::2])  # Output: VibhGta
+print(name[::-1]) # Output: atpuG vahbiV (reversed string)
 ```
 
 ## Conclusion

@@ -6,8 +6,8 @@ In Python, a variable is a reserved memory location used to store values. Variab
 ### Example:
 ```python
 first_name = "Vaibhav"  # A variable that stores a string
-age = 25  # A variable that stores an integer
-gpa = 7.9  # A variable that stores a float
+age = 21  # A variable that stores an integer
+gpa = 8.9  # A variable that stores a float
 ```
 
 ## Naming Variables
@@ -19,9 +19,9 @@ When naming variables, you should follow these rules:
 
 ### Example:
 ```python
-user_name = "John"  # Valid variable name
-user1 = "Doe"  # Valid variable name
-1st_user = "Alice"  # Invalid variable name (cannot start with a number)
+user_name = "Vaibhav"  # Valid variable name
+user1 = "Gupta"  # Valid variable name
+1st_user = "Vaibhav"  # Invalid variable name (cannot start with a number)
 ```
 
 ## Typecasting
@@ -32,13 +32,13 @@ Typecasting is the process of converting one data type into another. In Python, 
 
 ### Example:
 ```python
-age = 25  # Integer
+age = 21  # Integer
 age_str = str(age)  # Convert integer to string
-print(age_str)  # Output: "25"
+print(age_str)  # Output: "21"
 
-gpa = 7.9  # Float
+gpa = 8.9  # Float
 gpa_int = int(gpa)  # Convert float to integer
-print(gpa_int)  # Output: 7
+print(gpa_int)  # Output: 8
 
 is_student = True  # Boolean
 is_student_str = str(is_student)  # Convert boolean to string

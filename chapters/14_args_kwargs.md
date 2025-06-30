@@ -34,7 +34,7 @@ def display_info(**kwargs):
     for key, value in kwargs.items():
         print(f"{key}: {value}")
 
-display_info(name="Vaibhav", age=25, city="New York")
+display_info(name="Vaibhav", age=21, city="New York")
 ```
 
 In this example, the `display_info` function can accept any number of keyword arguments. The `kwargs` parameter collects all the keyword arguments into a dictionary, which we then iterate over to print each key-value pair.
@@ -51,7 +51,7 @@ def mixed_arguments(arg1, *args, **kwargs):
     print("Additional arguments:", args)
     print("Keyword arguments:", kwargs)
 
-mixed_arguments(10, 20, 30, name="Vaibhav", age=25)
+mixed_arguments(10, 20, 30, name="Vaibhav", age=21)
 ```
 
 In this example, the `mixed_arguments` function takes one regular argument (`arg1`), a variable number of additional arguments (`*args`), and a variable number of keyword arguments (`**kwargs`). The output will show how each type of argument is handled.

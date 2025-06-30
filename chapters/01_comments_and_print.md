@@ -45,8 +45,8 @@ You can also print variables by passing them to the `print()` function.
 **Example:**
 ```python
 name = "Vaibhav"
-age = 25
-print(name, age)  # Outputs: Vaibhav 25
+age = 21
+print(name, age)  # Outputs: Vaibhav 21
 ```
 
 ### Formatting Output

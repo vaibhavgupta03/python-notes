@@ -55,7 +55,7 @@ Keyword arguments allow you to specify arguments by name, making the function ca
 def display_info(name, age, city):
     print(f"Name: {name}, Age: {age}, City: {city}")
 
-display_info(age=25, city="New York", name="Vaibhav")
+display_info(age=21, city="New York", name="Vaibhav")
 ```
 
 ## Arbitrary Arguments
@@ -65,6 +65,17 @@ You can use `*args` and `**kwargs` to allow a function to accept a variable numb
 - `**kwargs` allows you to pass a variable number of keyword arguments.
 
 ### Example:
+```python
+def display_info(*args, **kwargs):
+    print("Positional arguments:", args)
+    print("Keyword arguments:", kwargs)
+
+display_info("Vaibhav", 21, city="New York")
+# Output: 
+# Positional arguments: ('Vaibhav', 21)
+# Keyword arguments: {'city': 'New York'}
+
+```
 ```python
 def add_numbers(*args):
     total = 0

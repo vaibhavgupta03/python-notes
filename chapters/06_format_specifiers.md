@@ -16,13 +16,13 @@ This is an older method of formatting strings in Python. It uses the percent sig
 **Usage Example:**
 ```python
 name = "Vaibhav"
-age = 25
-gpa = 7.9
+age = 21
+gpa = 8.9
 print("My name is %s, I am %d years old and my GPA is %.2f" % (name, age, gpa))
 ```
 Output:
 ```
-My name is Vaibhav, I am 25 years old and my GPA is 7.90
+My name is Vaibhav, I am 21 years old and my GPA is 8.90
 ```
 
 ### 2. f-Strings (Formatted String Literals)
@@ -31,13 +31,13 @@ Introduced in Python 3.6, f-strings provide a more readable and concise way to f
 **Usage Example:**
 ```python
 name = "Vaibhav"
-age = 25
-gpa = 7.9
+age = 21
+gpa = 8.9
 print(f"I am {name}, I am {age} years old and my GPA is {gpa:.2f}")
 ```
 Output:
 ```
-I am Vaibhav, I am 25 years old and my GPA is 7.90
+I am Vaibhav, I am 21 years old and my GPA is 8.90
 ```
 
 ### 3. Formatting Numbers
